@@ -23,7 +23,7 @@ async function imageConverter(oldPath, newPath) {
             uniqueString = '';
         }
 
-        console.log('\x1b[1;32m Images Converte successfully');
+        console.log('\x1b[1;32m Images Converted successfully');
     } catch (err) {
         console.log({ imageConverter: err.message });
     }
